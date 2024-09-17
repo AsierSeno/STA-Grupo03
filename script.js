@@ -5,7 +5,7 @@ document.getElementById('buscarBtn').addEventListener('click', function() {
         return;
     }
 
-    const apiKey = 'TU_API_KEY'; // Sustituye TU_API_KEY con tu clave de la API de OMDb
+    const apiKey = 'd0865484'; // Sustituye TU_API_KEY con tu clave de la API de OMDb
     const url = `https://www.omdbapi.com/?t=${encodeURIComponent(titulo)}&apikey=${apiKey}`;
 
     fetch(url)
