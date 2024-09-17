@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <title> Web STA</title>
+    <title>Búsqueda de Películas</title>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <center>
-        <h1>STA-Grupo03</h1>
-        <p>Esta es la web para el apartado 2.2 de la práctica1</p>
-        <div> Este botón destruye el mundo
-            <button onclick="mostrarAlerta()">Destruir</button>
-        </div>
-    </center>
-    <script src="script.js"></script>
+    <h1>Busca una película</h1>
+    <input type="text" id="titulo" placeholder="Introduce el título de la película">
+    <button id="buscarBtn">Buscar</button>
+
+    <div id="resultado"></div>
+
 </body>
 </html>
